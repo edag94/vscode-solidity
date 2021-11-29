@@ -45,6 +45,10 @@
     "onCommand:solidity.fixDocument"
   ],
   "main": "./out/src/server",
+  "files": [
+    "out/src/",
+    "src/"
+  ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
@@ -88,7 +92,6 @@
     ],
     "exclude": [
       "**/*.d.ts",
-      "out",
       "dist"
     ],
     "all": true
