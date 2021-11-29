@@ -1,5 +1,5 @@
 {
-  "name": "solidity",
+  "name": "solidity-language-server",
   "description": "Ethereum Solidity Language for Visual Studio Code",
   "keywords": [
     "solidity",
@@ -10,7 +10,7 @@
     "nethereum",
     "solhint"
   ],
-  "version": "0.0.136",
+  "version": "0.0.1",
   "publisher": "JuanBlanco",
   "license": "MIT",
   "engines": {
