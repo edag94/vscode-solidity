@@ -1,5 +1,5 @@
 {
-  "name": "solidity",
+  "name": "solidity-language-server",
   "description": "Ethereum Solidity Language for Visual Studio Code",
   "keywords": [
     "solidity",
@@ -10,7 +10,7 @@
     "nethereum",
     "solhint"
   ],
-  "version": "0.0.136",
+  "version": "0.0.3",
   "publisher": "JuanBlanco",
   "license": "MIT",
   "engines": {
@@ -44,7 +44,14 @@
     "onCommand:solidity.codegenFSharpProjectAll",
     "onCommand:solidity.fixDocument"
   ],
-  "main": "./out/src/extension",
+  "main": "./out/src/solidity-language-server.js",
+  "files": [
+    "out/src/",
+    "src/"
+  ],
+  "bin": {
+    "solidity-language-server": "./out/src/solidity-language-server.js"
+  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",

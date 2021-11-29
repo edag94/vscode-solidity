@@ -1,4 +1,9 @@
 # Solidity support for Visual Studio code
+
+### Forked for npm publish
+
+The [vscode-solidity](https://github.com/juanfranblanco/vscode-solidity) repo was forked with the executable replaced to the `solidity-language-server.js` file, to be able to publish to npm and consume in other text editors, such as neovim.
+
 [![Version](https://vsmarketplacebadge.apphb.com/version/juanblanco.solidity.svg)](https://marketplace.visualstudio.com/items?itemName=juanblanco.solidity)  [![Downloads](https://vsmarketplacebadge.apphb.com/downloads/juanblanco.solidity.svg)](https://marketplace.visualstudio.com/items?itemName=juanblanco.solidity) [![Installs](https://vsmarketplacebadge.apphb.com/installs/juanblanco.solidity.svg)](https://marketplace.visualstudio.com/items?itemName=juanblanco.solidity) [![Rating](https://vsmarketplacebadge.apphb.com/rating-star/juanblanco.solidity.svg)](https://marketplace.visualstudio.com/items?itemName=juanblanco.solidity#review-details)
 
 Solidity is the language used in Ethereum to create smart contracts, this extension provides: 
