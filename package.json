@@ -44,7 +44,7 @@
     "onCommand:solidity.codegenFSharpProjectAll",
     "onCommand:solidity.fixDocument"
   ],
-  "main": "./out/src/extension",
+  "main": "./out/src/server",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
