@@ -95,6 +95,7 @@
     ],
     "exclude": [
       "**/*.d.ts",
+      "out",
       "dist"
     ],
     "all": true
